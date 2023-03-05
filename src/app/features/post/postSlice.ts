@@ -51,6 +51,7 @@ const postSlice = createSlice({
     },
     addReaction(
       state,
+
       action: PayloadAction<{ reaction: keyof Reaction; id: string }>
     ) {
       const { reaction, id } = action.payload
