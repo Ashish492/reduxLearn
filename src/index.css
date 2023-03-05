@@ -1,0 +1,10 @@
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+body {
+  background-color: #1a2027;
+  min-height: 100vh;
+}
